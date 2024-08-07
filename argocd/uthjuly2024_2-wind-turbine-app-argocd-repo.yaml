@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: uthjuly2024_2-wind-turbine-app-repo
+  namespace: janus-argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: https://github.com/WindTurbineInc/uthjuly2024_2-wind-turbine-gitops
